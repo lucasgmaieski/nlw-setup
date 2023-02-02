@@ -15,6 +15,8 @@ const availableWeekDays = [
 export function NewHabitForm() {
     const [title, setTitle] = useState('')
     const [weekDays, setWeekDays] = useState<number[]>([])
+
+
     function createNewHabit(event: FormEvent) {
         event.preventDefault()
 
